@@ -12,7 +12,7 @@ function ProjectItem({ project }) {
   const wrapperProps = project.link ? { href: project.link, target: '_blank', rel: 'noopener noreferrer' } : {};
   return (
     <li className="group mb-12 transition-opacity lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
-      <Wrapper {...wrapperProps} className="group/link block rounded-lg p-4 transition-colors lg:-inset-x-4 lg:rounded-none lg:p-0 lg:hover:bg-white/40 dark:lg:hover:bg-slate-800/20">
+      <Wrapper {...wrapperProps} className="group/link block rounded-lg p-4 transition-colors lg:-inset-x-4 lg:rounded-lg lg:p-0 lg:hover:bg-white/40 dark:lg:hover:bg-slate-800/20">
         <div className="flex items-center gap-2">
           <h3 className="font-medium leading-snug text-slate-900 dark:text-slate-100">{project.title}</h3>
           {project.link && <ArrowUpRightIcon />}
