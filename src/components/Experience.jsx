@@ -4,7 +4,7 @@ import SectionHeading from './SectionHeading';
 function ExperienceItem({ experience }) {
   return (
     <li className="group mb-12 transition-opacity lg:group-hover/list:opacity-50 lg:hover:!opacity-100">
-      <div className="relative rounded-lg p-4 transition-colors lg:-inset-x-4 lg:rounded-none lg:p-0 lg:hover:bg-white/40 dark:lg:hover:bg-slate-800/20">
+      <div className="relative rounded-lg p-4 transition-colors lg:-inset-x-4 lg:rounded-lg lg:p-0 lg:hover:bg-white/40 dark:lg:hover:bg-slate-800/20">
         <div className="grid grid-cols-1 gap-x-4 gap-y-1 sm:grid-cols-8 sm:items-start sm:gap-8 md:gap-4">
           <div className="sm:col-span-2">
             <span className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">{experience.date}</span>
