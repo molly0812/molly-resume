@@ -18,6 +18,11 @@ function ProjectItem({ project }) {
           {project.link && <ArrowUpRightIcon />}
         </div>
         <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{project.description}</p>
+        {project.image && (
+          <div className="mt-4 overflow-hidden rounded-lg">
+            <img src={project.image} alt={project.title} className="w-full object-cover transition-transform group-hover/link:scale-105" loading="lazy" />
+          </div>
+        )}
         <div className="mt-3 flex flex-wrap gap-2">
           {project.tags.map((tag, i) => (
             <span key={i} className="rounded-full bg-primary-500/10 px-3 py-1 text-xs font-medium leading-5 text-primary-700 dark:bg-primary-400/10 dark:text-primary-300">{tag}</span>

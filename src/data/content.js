@@ -77,12 +77,12 @@ export const experiences = [
 ];
 
 export const projects = [
-  { id: 1, title: '中医心理科普内容矩阵', description: '独立打造心理学科普内容体系，涵盖短视频、图文、直播等多形态内容', tags: ['内容创作', '社群运营', '70万+播放', '14.6万+获赞'], link: 'https://mp.weixin.qq.com/s/hxXoB6M1y04KFEStPqqGEQ' },
-  { id: 2, title: '中医心理学大会运营项目', description: '参与策划并执行2025中国中医心理学大会，负责会前预热与内容输出', tags: ['活动策划', '社群运营', '+40%报名', '4.9/5评分'], link: null },
-  { id: 3, title: '私域社群从0到1搭建', description: '独立完成10余个精准用户社群的冷启动与常态化运营体系建设', tags: ['社群搭建', '用户转化', '1000+学员', '20-30万销售'], link: null },
-  { id: 4, title: '培训课程全流程交付', description: '作为核心负责人完成多期中医心理技能培训班的全流程落地', tags: ['课程运营', '流程优化', '95%+满意度', '+22%完课率'], link: null },
-  { id: 5, title: '心理学科普短视频系列', description: '独立完成近百条心理学科普内容的脚本撰写', tags: ['内容创作', '短视频', '近百条内容', '+25%场观'], link: 'http://baike.baidu.com/l/jj1Ix8Bc?bk_share=copy&bk_sharefr=wapbaike' },
-  { id: 6, title: '同学会组织与长期运营', description: '策划中医心理学同学会组织框架与全年活动方案，夯实高价值用户粘性', tags: ['社群维护', '活动设计', '+35%复购', '30%+活跃度'], link: null },
+  { id: 1, title: '中医心理科普内容矩阵', description: '独立打造心理学科普内容体系，涵盖短视频、图文、直播等多形态内容', tags: ['内容创作', '社群运营', '70万+播放', '14.6万+获赞'], link: 'https://mp.weixin.qq.com/s/hxXoB6M1y04KFEStPqqGEQ', image: null },
+  { id: 2, title: '中医心理学大会运营项目', description: '参与策划并执行2025中国中医心理学大会，负责会前预热与内容输出', tags: ['活动策划', '社群运营', '+40%报名', '4.9/5评分'], link: null, image: '/project-1.jpg' },
+  { id: 3, title: '私域社群从0到1搭建', description: '独立完成10余个精准用户社群的冷启动与常态化运营体系建设', tags: ['社群搭建', '用户转化', '1000+学员', '20-30万销售'], link: null, image: null },
+  { id: 4, title: '培训课程全流程交付', description: '作为核心负责人完成多期中医心理技能培训班的全流程落地', tags: ['课程运营', '流程优化', '95%+满意度', '+22%完课率'], link: null, image: '/project-3.jpg' },
+  { id: 5, title: '心理学科普短视频系列', description: '独立完成近百条心理学科普内容的脚本撰写', tags: ['内容创作', '短视频', '近百条内容', '+25%场观'], link: 'http://baike.baidu.com/l/jj1Ix8Bc?bk_share=copy&bk_sharefr=wapbaike', image: '/project-4.png' },
+  { id: 6, title: '同学会组织与长期运营', description: '策划中医心理学同学会组织框架与全年活动方案，夯实高价值用户粘性', tags: ['社群维护', '活动设计', '+35%复购', '30%+活跃度'], link: null, image: '/project-2.jpg' },
 ];
 
 export const skillCategories = [
