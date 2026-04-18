@@ -8,12 +8,6 @@ const EmailIcon = () => (
   </svg>
 );
 
-const XiaohongshuIcon = () => (
-  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6zm4 4h-2v-2h2v2zm0-4h-2V7h2v6z"/>
-  </svg>
-);
-
 const DownloadIcon = () => (
   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
@@ -65,7 +59,6 @@ export default function Sidebar({ activeSection }) {
       </div>
       <div className="mt-8 flex items-center gap-5 lg:mt-0">
         <a href={`mailto:${personalInfo.email}`} className="text-slate-500 transition-colors hover:text-slate-900 dark:hover:text-slate-100" aria-label="邮箱"><EmailIcon /></a>
-        <a href={personalInfo.xiaohongshu} target="_blank" rel="noopener noreferrer" className="text-slate-500 transition-colors hover:text-slate-900 dark:hover:text-slate-100" aria-label="小红书"><XiaohongshuIcon /></a>
         <a href="苗露-个人简历.pdf" download className="text-slate-500 transition-colors hover:text-slate-900 dark:hover:text-slate-100" aria-label="下载简历"><DownloadIcon /></a>
         <div className="ml-2"><ThemeToggle /></div>
       </div>
