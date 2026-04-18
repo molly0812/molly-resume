@@ -10,7 +10,7 @@ export const navItems = [
 export const personalInfo = {
   name: '苗露',
   title: '社群运营专家 | 内容策划 | 心理咨询师',
-  bio: '深耕心理/教育/健康垂直领域 3 年+，擅长私域全链路运营、内容策划与活动落地。独立完成10余个精准用户社群的冷启动与常态化运营体系建设，累计沉淀用户3000人+，带动销售额20-30万。',
+  bio: '3年+内容与私域运营经验，擅长全链路运营，执行力强、爱探索新鲜事物，学习快、好沟通，能独立高效落地业务。',
   email: '951720194@qq.com',
   xiaohongshu: 'https://xhslink.com/m/8XGATbqYwHY',
 };
