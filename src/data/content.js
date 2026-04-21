@@ -10,7 +10,7 @@ export const navItems = [
 export const personalInfo = {
   name: '苗露',
   title: '社群运营专家 | 内容策划 | 心理咨询师',
-  bio: '3年+内容与私域运营经验，擅长全链路运营，执行力强、爱探索新鲜事物，学习快、好沟通，能独立高效落地业务。',
+  bio: '深耕心理垂类，内容研发与用户运营6年+，擅长全链路运营，执行力强、爱探索新鲜事物，学习快、好沟通，能独立高效落地业务。',
   email: '951720194@qq.com',
   xiaohongshu: 'https://xhslink.com/m/8XGATbqYwHY',
 };
