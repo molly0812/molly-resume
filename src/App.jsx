@@ -3,6 +3,7 @@ import { navItems } from './data/content';
 import { useActiveSection } from './hooks/useActiveSection';
 import Sidebar from './components/Sidebar';
 import MouseGlow from './components/MouseGlow';
+import VisitorCounter from './components/VisitorCounter';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -17,6 +18,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen">
       <MouseGlow />
+      <VisitorCounter />
       <div className="relative z-10 mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-16 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           <Sidebar activeSection={activeSection} />
