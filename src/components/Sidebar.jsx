@@ -20,12 +20,17 @@ export default function Sidebar({ activeSection }) {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
       <div>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl">
-          {personalInfo.name}
-        </h1>
-        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-600 dark:text-slate-300 sm:text-xl">
-          {personalInfo.title}
-        </h2>
+        <div className="flex items-center gap-4">
+          <img src="/头像.jpg" alt={personalInfo.name} className="h-16 w-16 rounded-full object-cover ring-2 ring-slate-200 dark:ring-slate-700" />
+          <div>
+            <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl">
+              {personalInfo.name}
+            </h1>
+            <h2 className="mt-1 text-lg font-medium tracking-tight text-slate-600 dark:text-slate-300 sm:text-xl">
+              {personalInfo.title}
+            </h2>
+          </div>
+        </div>
         <p className="mt-4 max-w-xs leading-normal text-slate-600 dark:text-slate-400">
           {personalInfo.bio}
         </p>
